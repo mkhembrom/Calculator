@@ -16,26 +16,26 @@ public class TestingCalc {
 	@Test
 	public void mul_test() {
 		c = null;
-		assertEquals(4*7,c.mult(4,7));
+		assertEquals(6*5,c.mult(6,5));
 	}
 	
 	@SuppressWarnings("static-access")
 	@Test
 	public void addition_test() {
-		assertEquals(4+7,c.add(4,7));
+		assertEquals(2+4,c.add(2,4));
 	}
 	
 	@SuppressWarnings("static-access")
 	@Test
 	public void sub_test() {
-		assertEquals(4-7,c.sub(4,7));
+		assertEquals(6-5,c.sub(6,5));
 	}
 	
 	@SuppressWarnings("static-access")
 	@Test
 	public void div_test() {
 		
-		assertEquals(14/7,c.div(14,7));
+		assertEquals(20/5,c.div(20,5));
 	}
 
 }
